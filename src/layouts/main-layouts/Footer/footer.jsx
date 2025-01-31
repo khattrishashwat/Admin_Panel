@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Link, Stack, Typography } from "@mui/material";
-import { useBreakpoints } from "providers/BreakpointsProvider";
+import { useBreakpoints } from "../../../providers/BreakpointsProvider";
 
 const Footer = ({ open }) => {
   const { down } = useBreakpoints();
